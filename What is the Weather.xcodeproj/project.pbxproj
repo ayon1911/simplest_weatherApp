@@ -12,7 +12,7 @@
 		B6E15A181CE1FD4A00B3379B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E15A161CE1FD4A00B3379B /* Main.storyboard */; };
 		B6E15A1A1CE1FD4A00B3379B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E15A191CE1FD4A00B3379B /* Assets.xcassets */; };
 		B6E15A1D1CE1FD4A00B3379B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E15A1B1CE1FD4A00B3379B /* LaunchScreen.storyboard */; };
-		B6E15A251CE1FE0200B3379B /* backimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6E15A241CE1FE0200B3379B /* backimage.jpg */; settings = {ASSET_TAGS = (); }; };
+		B6E15A251CE1FE0200B3379B /* backimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6E15A241CE1FE0200B3379B /* backimage.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +98,7 @@
 				TargetAttributes = {
 					B6E15A0E1CE1FD4A00B3379B = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = UHJSHJ73VS;
 					};
 				};
 			};
@@ -250,10 +251,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UHJSHJ73VS;
 				INFOPLIST_FILE = "What is the Weather/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.What-is-the-Weather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -261,10 +264,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UHJSHJ73VS;
 				INFOPLIST_FILE = "What is the Weather/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.What-is-the-Weather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -287,6 +292,7 @@
 				B6E15A231CE1FD4A00B3379B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
